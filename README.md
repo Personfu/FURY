@@ -23,7 +23,7 @@ FURY OSINT is a high-fidelity, enterprise-grade Linux distribution built upon th
 
 ---
 
-### [DOWNLOAD FURY v1.0.1-TITAN-EXPANDED](https://github.com/Personfu/FURY/releases)
+### [DOWNLOAD FURY v1.0.2-TITAN-EXPANDED](https://github.com/Personfu/FURY/releases)
 
 #### **Installer Images**
 
@@ -56,9 +56,9 @@ Extremely quick and easy access to the FURY toolset without the overhead of an i
 
 | Category | Focus | Key Tools |
 | :--- | :--- | :--- |
-| **FUTURE** | AI-Driven & Modern Intel | Subfinder, Nuclei, Naabu, Maltego, Spiderfoot, Sherlock, **Bitmagnet**, **TorrServer**, **Memori**, **Erigon** |
-| **MODERN** | Cloud & Wireless Intelligence | GnuRadio, HackRF, RTL-SDR, Docker Stack, Kubernetes, **Forest (Filecoin)**, **Slingshot**, **drand-verify**, **IPFS** |
-| **LEGACY** | Historical Support & Forensics | Python2, libssl1.1, Forensics Toolset, Hardware Diagnostics, **Osquery**, **Wireshark**, **Nmap**, **dwarfs**, **netcat** |
+| **FUTURE** | AI-Driven & Modern Intel | Subfinder, Nuclei, Naabu, Maltego, Spiderfoot, Sherlock, Bitmagnet, TorrServer, Memori, Erigon, **Amass**, **Blackbird**, **Holehe**, **Social-Analyzer**, **Osmedeus**, **Axiom**, **GitHound**, **Recon-ng** |
+| **MODERN** | Cloud & Wireless Intelligence | GnuRadio, HackRF, RTL-SDR, Docker Stack, Kubernetes, Forest (Filecoin), Slingshot, drand-verify, IPFS, **Bettercap**, **ScoutSuite**, **Pacu**, **Gitleaks**, **TruffleHog**, **Kismet**, **Wifite2**, **CrackMapExec**, **BloodHound.py** |
+| **LEGACY** | Historical Support & Forensics | Python2, libssl1.1, Forensics Toolset, Hardware Diagnostics, Osquery, Wireshark, Nmap, dwarfs, netcat, **Volatility 3**, **Radare2**, **Hashcat**, **John the Ripper**, **Hydra**, **Responder**, **Impacket**, **BloodHound**, **Autopsy**, **Masscan** |
 
 ---
 
