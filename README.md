@@ -23,7 +23,7 @@ FURY OSINT is a high-fidelity, enterprise-grade Linux distribution built upon th
 
 ---
 
-### [DOWNLOAD FURY v1.0 - TITAN](https://github.com/Personfu/FURY/releases)
+### [DOWNLOAD FURY v1.0.1 - TITAN](https://github.com/Personfu/FURY/releases)
 
 #### **Installer Images**
 
@@ -56,9 +56,9 @@ Extremely quick and easy access to the FURY toolset without the overhead of an i
 
 | Category | Focus | Key Tools |
 | :--- | :--- | :--- |
-| **FUTURE** | AI-Driven & Modern Intel | Subfinder, Nuclei, Naabu, Maltego, Spiderfoot, Sherlock |
-| **MODERN** | Cloud & Wireless Intelligence | GnuRadio, HackRF, RTL-SDR, Docker Stack, Kubernetes |
-| **LEGACY** | Historical Support & Forensics | Python2, libssl1.1, Forensics Toolset, Hardware Diagnostics |
+| **FUTURE** | AI-Driven & Modern Intel | Subfinder, Nuclei, Naabu, Maltego, Spiderfoot, Sherlock, **Bitmagnet**, **TorrServer**, **Memori** |
+| **MODERN** | Cloud & Wireless Intelligence | GnuRadio, HackRF, RTL-SDR, Docker Stack, Kubernetes, **Erigon**, **Forest (Filecoin)**, **Slingshot** |
+| **LEGACY** | Historical Support & Forensics | Python2, libssl1.1, Forensics Toolset, Hardware Diagnostics, **Osquery**, **Wireshark**, **Nmap** |
 
 ---
 

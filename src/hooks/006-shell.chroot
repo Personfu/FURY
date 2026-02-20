@@ -12,6 +12,11 @@ log() {
 
 log "Hardening shell environment..."
 
+# --- SPACESHIP PROMPT INTEGRATION ---
+log "Orchestrating Spaceship Prompt (Zsh)..."
+git clone --depth=1 https://github.com/spaceship-prompt/spaceship-prompt.git /opt/fury/spaceship-prompt || true
+ln -s "/opt/fury/spaceship-prompt/spaceship.zsh-theme" "/usr/share/zsh/functions/Prompts/prompt_spaceship_setup" || true
+
 cat <<'EOF' >> "$TARGET_ZSHRC"
 
 # --- FURY OSINT EXPERT ALIASES ---
@@ -30,6 +35,10 @@ alias fury-vuln='nmap --script vuln'
 # Networking / SDR
 alias fury-wifi='sudo airmon-ng'
 alias fury-sdr='gqrx'
+
+# Spaceship Prompt Activation
+autoload -U promptinit; promptinit
+prompt spaceship
 
 # Custom MotD Trigger
 if [ -f /etc/motd ]; then cat /etc/motd; fi

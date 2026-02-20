@@ -19,12 +19,23 @@ git clone --depth 1 https://github.com/m8sec/crosslinked.git || true
 git clone --depth 1 https://github.com/sherlock-project/sherlock.git || true
 git clone --depth 1 https://github.com/s0md3v/Photon.git || true
 git clone --depth 1 https://github.com/smicallef/spiderfoot.git || true
+git clone --depth 1 https://github.com/bitmagnet-io/bitmagnet.git || true
+git clone --depth 1 https://github.com/YouROK/TorrServer.git || true
+git clone --depth 1 https://github.com/erigontech/erigon.git || true
+git clone --depth 1 https://github.com/StoneCypher/jssm.git || true
+git clone --depth 1 https://github.com/theRoughCode/PlanetFlare.git || true
 
 log "Synchronizing Operational Arsenals..."
 git clone --depth 1 https://github.com/jpillora/chisel.git || true
 git clone --depth 1 https://github.com/nicocha30/ligolo-ng.git || true
 git clone --depth 1 https://github.com/secure77/PwnSpot.git || true
 git clone --depth 1 https://github.com/FortyTwoSecurity/Linear-Movement-Suite.git || true
+git clone --depth 1 https://github.com/topjohnwu/Magisk.git || true
+git clone --depth 1 https://github.com/thehackingsage/ddos.git || true
+git clone --depth 1 https://github.com/thehackingsage/hackdroid.git || true
+git clone --depth 1 https://github.com/ChainSafe/forest.git || true
+git clone --depth 1 https://github.com/google/zx.git || true
+git clone --depth 1 https://github.com/osquery/osquery.git || true
 
 log "Synchronizing Methodology Datasets..."
 git clone --depth 1 https://github.com/swisskyrepo/PayloadsAllTheThings.git || true
