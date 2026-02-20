@@ -81,8 +81,8 @@ sudo bash deploy.sh
 
 ### Build Pipeline Highlights
 
+- **FLLC UI Core**:
 - **Titan Manifest**: Exhaustive toolsets across Future/Modern/Legacy domains.
-- **FLLC UI Core**: Cosmic Purple, Midnight, and Galaxy aesthetics.
 - **Stealth Integration**: Hardened kernels and network diagnostic transparency.
 
 ---
@@ -101,4 +101,5 @@ sudo bash deploy.sh
 > **MISSION: FOR YOUR FUTURE**
 
 © 2026 FLLC (Furulie LLC). All rights reserved.
+
 
