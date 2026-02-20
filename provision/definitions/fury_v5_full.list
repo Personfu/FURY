@@ -1,0 +1,86 @@
+# ==============================================================================
+# FURY OSINT - SYSTEM DEFINITION (v1.0)
+# REPOSITORY: Personfu/FURY
+# ARCHITECTURE: TITAN-H-DEF
+# ==============================================================================
+
+# 1. GRAPHICAL SUBSYSTEM
+kali-desktop-xfce
+kali-win-kex
+xorg
+xfce4-terminal
+tigervnc-standalone-server
+
+# 2. FULL-SPECTRUM METAPACKAGES (THE NUCLEAR OPTION)
+kali-linux-everything
+kali-tools-top10
+kali-tools-information-gathering
+kali-tools-vulnerability-analysis
+kali-tools-web
+kali-tools-database
+kali-tools-passwords
+kali-tools-wireless
+kali-tools-reverse-engineering
+kali-tools-exploitation
+kali-tools-social-engineering
+kali-tools-post-exploitation
+kali-tools-sniffing-spoofing
+kali-tools-forensics
+kali-tools-sdr
+kali-tools-hardware
+
+# 3. SIGNAL & ELECTRICAL ENGINEERING LABORATORY
+kicad
+arduino
+flashrom
+sigrok-cli
+pulseview
+minicom
+openocd
+gnuradio
+gqrx-sdr
+hackrf
+rtl-sdr
+
+# 4. LEGACY COMPATIBILITY STACK
+python2
+python2-dev
+libssl1.1
+libpython2.7-dev
+
+# 5. FUTURE INTELLIGENCE & CLOUD INFRASTRUCTURE
+subfinder
+nuclei
+httpx
+naabu
+maltego
+spiderfoot
+sherlock
+docker.io
+docker-compose
+kubectl
+terraform
+ansible
+
+# 6. DEVELOPMENT & SYSTEM SYNERGY
+golang-go
+python3-full
+python3-pip
+nodejs
+npm
+rustc
+cargo
+build-essential
+git
+curl
+wget
+jq
+bc
+
+# 7. DRIVER & FIRMWARE PARITY
+firmware-realtek
+firmware-atheros
+firmware-liberation
+firmware-misc-nonfree
+network-manager
+EOF
