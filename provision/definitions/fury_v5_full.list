@@ -1,5 +1,5 @@
 # ==============================================================================
-# FURY OSINT - SYSTEM DEFINITION (v1.0)
+# FURY OSINT - SYSTEM DEFINITION (v1.0.1)
 # REPOSITORY: Personfu/FURY
 # ARCHITECTURE: TITAN-H-DEF
 # ==============================================================================
@@ -76,6 +76,9 @@ curl
 wget
 jq
 bc
+bat
+osquery
+zsh
 
 # 7. DRIVER & FIRMWARE PARITY
 firmware-realtek

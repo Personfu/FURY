@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 # GENIUS-GRADE ATOMIC BUILD ENGINE
 # OPTIMIZED FOR: KALI-LINUX / WSL2 / NATIVE CHROOT
-# AUTHOR: PRESTON FURULIE (FLLC GLOBAL)
+# AUTHOR: PRESTON FURULIE (FLLC)
 # ==============================================================================
 
 set -e

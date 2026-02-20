@@ -1,5 +1,5 @@
 # ==============================================================================
-# FURY OSINT - TITAN MANIFEST (v1.0)
+# FURY OSINT - TITAN MANIFEST (v1.0.1)
 # REPOSITORY: Personfu/FURY
 # ==============================================================================
 
@@ -46,6 +46,7 @@ python2
 python2-dev
 libssl1.1
 libpython2.7-dev
+dwarfs
 
 # FUTURE INTELLIGENCE
 subfinder
@@ -67,11 +68,16 @@ npm
 rustc
 cargo
 build-essential
-git
-curl
-wget
 jq
 bc
+bat
+osquery
+nmap
+wireshark
+tcpdump
+zsh
+curl
+git
 
 # FIRMWARE STACK
 firmware-realtek
