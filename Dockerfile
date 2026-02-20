@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install -y \
     npm \
     iputils-ping \
     net-tools \
+    dos2unix \
     && rm -rf /var/lib/apt/lists/*
 
 # 2. Workspace Initialization
@@ -38,16 +39,13 @@ COPY provision/definitions/ /opt/fury/provision/definitions/
 COPY src/ /opt/fury/src/
 
 # 4. Atomic Arsenal Synthesis (Headless Mode)
-# We run the arsenal provisioner directly within the container build
-RUN chmod +x /opt/fury/provision/modules/005_arsenal_provision.sh && \
-    /bin/bash /opt/fury/provision/modules/005_arsenal_provision.sh
+# Normalize line endings before execution to prevent CRLF issues from Windows host
+RUN dos2unix /opt/fury/provision/modules/*.sh && \
+    chmod +x /opt/fury/provision/modules/*.sh
 
-# 5. Shell Environment Synthesis
-RUN chmod +x /opt/fury/provision/modules/006_shell_env.sh && \
-    /bin/bash /opt/fury/provision/modules/006_shell_env.sh
-
-# 6. Custom FURY Utilities
-RUN chmod +x /opt/fury/provision/modules/007_custom_arsenal.sh && \
+# Execute Provisioning Modules
+RUN /bin/bash /opt/fury/provision/modules/005_arsenal_provision.sh && \
+    /bin/bash /opt/fury/provision/modules/006_shell_env.sh && \
     /bin/bash /opt/fury/provision/modules/007_custom_arsenal.sh
 
 # 7. Final Polish
