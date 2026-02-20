@@ -46,6 +46,7 @@ python2
 python2-dev
 libssl1.1
 libpython2.7-dev
+dwarfs
 
 # FUTURE INTELLIGENCE
 subfinder
