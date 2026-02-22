@@ -2,46 +2,31 @@
 set -e
 
 # arsenal-sync.chroot
-# (Formerly: offensive-git-pull.chroot - Renamed for environment evasion)
+# FURY TITAN-X | OPERATIONAL SYNC
 # SEC_CLS: TOP SECRET // FURY OSINT
 
 log() {
-    echo "[ARSENAL-SYNC] $1"
+    echo "[TITAN-SYNC] $1"
 }
 
-TARGET="/opt/fury/arsenal"
-mkdir -p "$TARGET"
-cd "$TARGET"
+ARSENAL_TARGET="/opt/fury/arsenal"
+FURIOUS_TARGET="/opt/fury/furious"
 
-# Tiered Repository Injection
-log "Synchronizing Intelligence Frameworks..."
-git clone --depth 1 https://github.com/m8sec/crosslinked.git || true
-git clone --depth 1 https://github.com/sherlock-project/sherlock.git || true
-git clone --depth 1 https://github.com/s0md3v/Photon.git || true
-git clone --depth 1 https://github.com/smicallef/spiderfoot.git || true
-git clone --depth 1 https://github.com/bitmagnet-io/bitmagnet.git || true
-git clone --depth 1 https://github.com/YouROK/TorrServer.git || true
-git clone --depth 1 https://github.com/erigontech/erigon.git || true
-git clone --depth 1 https://github.com/StoneCypher/jssm.git || true
-git clone --depth 1 https://github.com/theRoughCode/PlanetFlare.git || true
+mkdir -p "$ARSENAL_TARGET"
+mkdir -p "$FURIOUS_TARGET"
 
-log "Synchronizing Operational Arsenals..."
-git clone --depth 1 https://github.com/jpillora/chisel.git || true
-git clone --depth 1 https://github.com/nicocha30/ligolo-ng.git || true
-git clone --depth 1 https://github.com/secure77/PwnSpot.git || true
-git clone --depth 1 https://github.com/FortyTwoSecurity/Linear-Movement-Suite.git || true
-git clone --depth 1 https://github.com/topjohnwu/Magisk.git || true
-git clone --depth 1 https://github.com/thehackingsage/ddos.git || true
-git clone --depth 1 https://github.com/thehackingsage/hackdroid.git || true
-git clone --depth 1 https://github.com/ChainSafe/forest.git || true
-git clone --depth 1 https://github.com/google/zx.git || true
-git clone --depth 1 https://github.com/osquery/osquery.git || true
+# Synchronizing Local In-House Arsenal
+# These tools are pre-staged in the FURY source tree for zero-clone stealth builds.
+log "Synchronizing FURY In-House Arsenal..."
+cp -rv /tmp/fury_arsenal/* "$ARSENAL_TARGET/" || true
 
-log "Synchronizing Methodology Datasets..."
-git clone --depth 1 https://github.com/swisskyrepo/PayloadsAllTheThings.git || true
-git clone --depth 1 https://github.com/drwetter/testssl.sh.git || true
+# Synchronizing FURIOUS Embedded Sources
+log "Synchronizing FURIOUS Embedded Node Sources..."
+cp -rv /tmp/furious/* "$FURIOUS_TARGET/" || true
 
-# Strip Metadata for Stealth
-find . -name ".git" -type d -exec rm -rf {} + || true
+# Strip Metadata and Build Artifacts
+log "Performing Stealth Sanitization..."
+find /opt/fury -name ".git" -type d -exec rm -rf {} + || true
+find /opt/fury -name "__pycache__" -type d -exec rm -rf {} + || true
 
-log "Arsenal Operational."
+log "Titan-X Arsenal Operational. Stealth Factor: 1.0"
