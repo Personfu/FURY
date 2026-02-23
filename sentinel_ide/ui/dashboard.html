@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>FURY SENTINEL IDE</title>
@@ -14,6 +15,7 @@
             flex-direction: column;
             height: 100vh;
         }
+
         header {
             padding: 20px;
             border-bottom: 1px solid #00ffcc33;
@@ -22,6 +24,7 @@
             justify-content: space-between;
             align-items: center;
         }
+
         .status-dot {
             height: 10px;
             width: 10px;
@@ -30,46 +33,100 @@
             display: inline-block;
             box-shadow: 0 0 10px #00ffcc;
         }
+
         main {
             display: flex;
             flex: 1;
         }
+
         .sidebar {
             width: 250px;
             border-right: 1px solid #00ffcc33;
             padding: 15px;
             background-color: #080808;
         }
+
         .editor {
             flex: 1;
             padding: 20px;
             background-color: #0a0a0a;
             position: relative;
+            display: flex;
+            flex-direction: column;
         }
+
+        .viz-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .viz-box {
+            border: 1px solid #00ffcc33;
+            background-color: #000;
+            padding: 10px;
+            position: relative;
+        }
+
+        .viz-title {
+            font-size: 10px;
+            color: #00ffccaa;
+            margin-bottom: 5px;
+        }
+
+        .heatmap {
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #00ffcc22 0%, #000 70%);
+            border: 1px solid #00ffcc11;
+        }
+
         .terminal {
-            height: 200px;
+            height: 150px;
             background-color: #000;
             border-top: 1px solid #00ffcc33;
             padding: 10px;
             font-size: 12px;
             color: #00cc99;
+            overflow-y: auto;
         }
+
         .pulse {
             animation: blink 2s infinite;
         }
+
         @keyframes blink {
-            0% { opacity: 0.3; }
-            50% { opacity: 1; }
-            100% { opacity: 0.3; }
+            0% {
+                opacity: 0.3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.3;
+            }
         }
-        .nav-item { margin-bottom: 10px; cursor: pointer; opacity: 0.7; }
-        .nav-item:hover { opacity: 1; color: #fff; }
+
+        .nav-item {
+            margin-bottom: 10px;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        .nav-item:hover {
+            opacity: 1;
+            color: #fff;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <div>FURY SENTINEL <span class="pulse">|</span> 2030 OMNISCIENT</div>
-        <div><span class="status-dot"></span> NEBULA_CORE: ONLINE</div>
+        <div><span class="status-dot"></span> NEBULA_CORE: ONLINE (SYNC: 2030.01)</div>
     </header>
     <main>
         <div class="sidebar">
@@ -77,19 +134,37 @@
             <div class="nav-item">🤖 SWARM_SCHEDULER</div>
             <div class="nav-item">🧪 PAYLOAD_LAB</div>
             <div class="nav-item">📡 SIGINT_STREAM</div>
+            <div class="nav-item">📱 MOBILE_RECON</div>
+            <div class="nav-item">⛓️ WEB3_AUDITOR</div>
             <div class="nav-item" style="margin-top: 40px; color: #ff3366;">⚠️ DESTRUCT_ENGINE</div>
         </div>
         <div class="editor">
-            <pre>// NEBULA-CLASS PAYLOAD v10.0.1
-// TARGET: [REDACTED]
+            <div class="viz-container">
+                <div class="viz-box">
+                    <div class="viz-title">NEURAL_SWARM HEATMAP (REAL-TIME)</div>
+                    <div class="heatmap"></div>
+                </div>
+                <div class="viz-box">
+                    <div class="viz-title">SIGINT_SPECTRAL_DENSITY</div>
+                    <div style="height: 100%; display: flex; align-items: flex-end; gap: 2px;">
+                        <div style="flex: 1; background: #00ffcc; height: 30%;"></div>
+                        <div style="flex: 1; background: #00ffcc; height: 60%;"></div>
+                        <div style="flex: 1; background: #00ffcc; height: 45%;"></div>
+                        <div style="flex: 1; background: #00ffcc; height: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <pre style="margin: 0;">// NEBULA-CLASS PAYLOAD v10.0.1
+// TARGET: [REDACTED] | DOMAIN: GLOBAL
 // MODE: OMNISCIENT_FORECASTING
 
-import { Nebula } from 'fury-core';
+import { Nebula, Swarm } from 'fury-core';
 
 async function initiateCycle() {
     const pulse = await Nebula.forecast('infrastructure_drift');
     if (pulse.probability > 0.95) {
-        await Nebula.deploy('evolve_v7.5');
+        await Swarm.coordinate('deploy_evolve_v10');
+        console.log("[-] MISSION_PULSE_SENT: Dominance Secured.");
     }
 }
             </pre>
@@ -99,7 +174,10 @@ async function initiateCycle() {
         [*] SENTINEL: Connection to FURY-MESH established.<br>
         [i] SYNC: Local CVE database updated (T-Minus 0s).<br>
         [!] ALERT: Detected anomalous signal on 2.4GHz spectrum.<br>
+        [+] MOBILE: Android/iOS Recon modules loaded.<br>
+        [+] WEB3: Blockchain Crawler active (Sub-Millisecond).<br>
         [>] Shell: _
     </div>
 </body>
+
 </html>
