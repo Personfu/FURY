@@ -51,7 +51,7 @@ def execute_ultimate_mission():
     # 5. Bio-Mimetic Stealth & Resilience
     print("\n[PHASE 5: AUTONOMOUS SURVIVAL]")
     mimic = EvasionMimic()
-    mimic.generate_traffic_noise(2)
+    mimic.generate_traffic_noise(1) # Reduced for verification speed
     heal = MeshHealer("Pillar_Alpha")
     heal.monitor_health()
 
