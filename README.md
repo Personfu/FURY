@@ -1,26 +1,44 @@
+# FURY: THE OMNISCIENT DISTRIBUTION (VISION 2030)
+
 <div align="center">
+  <img src="https://raw.githubusercontent.com/Personfu/FURY/main/assets/fury_logo_2030.png" width="300" alt="FURY 2030">
+  <h3>Autonomous Intelligence | Neural Stealth | Zero-Latent Forecasting</h3>
+</div>
 
-The `FURIOUS` system is the primary hardware node for field operations.
+FURY has evolved from a tactical OSINT distribution into the **NEBULA Protocol**—a unified, autonomous intelligence ecosystem designed to dominate the 2027-2030 threat landscape.
 
-- **Sensor Acquisition**: Arduino Uno polling environmental telemetry.
-- **Network Recon**: ESP32 monitoring WiFi metadata and device presence.
-- **Data Flow**: Structured WHO/WHAT/WHERE/WHEN/WHY JSON over L-SPP Serial.
-- **Visuals**: 16x2 I2C Display + Web-based IoT Dashboard.
+## 🚀 The 2030 Vision
+
+### 🌌 Neural-Swarm & Q-API
+
+We have moved beyond manual tool subsets. FURY nodes now operate in a **Neural-Swarm**, coordinating tasks autonomously over a quantum-hardened **Q-API** (CRYSTALS-Kyber).
+
+### 🛡️ Bio-Mimetic Evasion
+
+Using AI-driven traffic shaping, FURY mimics legitimate human behavior to bypass advanced L7 DPI and anomaly detection at the edge.
+
+### 🔬 Molecular SIGINT
+
+Targeting hardware-level side-channel emissions to bypass system-level security and recover cryptographic secrets directly from the silicon.
+
+### 🔮 Global Omniscience
+
+Implementing Zero-Latent forecasting models that predict infrastructure shifts and target movements before they occur.
 
 ---
 
-## ⚡ `Titan` Build Engine
+## ⚡ Core Architecture
 
-The build system has been optimized for **Environmental Evasion**:
+- **[NEBULA Orchestrator](file:///C:/Users/pfuru/OneDrive/Desktop/FURY/fury_arsenal/nebula_orchestrator.py)**: The central mission brain.
+- **[Synthesis Engine](file:///C:/Users/pfuru/OneDrive/Desktop/FURY/fury_arsenal/nebula_synthesis_engine.py)**: Multi-domain intelligence correlation.
+- **[Evolve Core](file:///C:/Users/pfuru/OneDrive/Desktop/FURY/fury_arsenal/nebula_evolve.py)**: Polymorphic payload mutation.
 
-- **Metadata Stripping**: All `.git` and development artifacts are removed.
-- **Atomic Deployment**: All 100+ categories are synchronized from local FURY sources.
-- **Quantum-Ready**: Integration of PQC migration tools and scanners.
+## 🛡️ Daily Intelligence Sync
+
+FURY is powered by a **Daily CVE Sync** engine that automatically updates its intelligence database every 24 hours, ensuring 100% relevance in a rapidly shifting global environment.
 
 ---
 
 <div align="center">
-
-**[FLLC | 2026 | FOR YOUR FUTURE](https://fllc.net)**
-
+**[FLLC | BEYOND 2030 | THE FUTURE IS SECURED](https://fllc.net)**
 </div>
