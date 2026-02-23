@@ -19,7 +19,7 @@ class CyberPhysicalIntel:
     def automotive_can_burst(self):
         print("[*] NEBULA-PHYSICAL: Initiating Automotive CAN Bus spectral analysis...")
         # Simulation of CAN bus packet analysis for vehicle-to-everything (V2X) comms
-        frames = [f"0x{random.randint(0, 7FF):03X}" for _ in range(3)]
+        frames = ["0x{:03X}".format(random.randint(0, 2047)) for _ in range(3)]
         print(f"    [>] SNIFFED: CAN_ID {frames} | Status: NOMINAL")
 
 if __name__ == "__main__":
