@@ -1,0 +1,75 @@
+{
+    "last_updated": "2026-02-22T18:07:59.350234",
+    "vulnerabilities": [
+        {
+            "id": "CVE-2026-0001",
+            "score": 8.2,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_01"
+        },
+        {
+            "id": "CVE-2026-0002",
+            "score": 8.4,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_02"
+        },
+        {
+            "id": "CVE-2026-0003",
+            "score": 8.6,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_03"
+        },
+        {
+            "id": "CVE-2026-0004",
+            "score": 8.8,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_04"
+        },
+        {
+            "id": "CVE-2026-0005",
+            "score": 9.0,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_05"
+        },
+        {
+            "id": "CVE-2026-0006",
+            "score": 9.2,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_06"
+        },
+        {
+            "id": "CVE-2026-0007",
+            "score": 9.4,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_07"
+        },
+        {
+            "id": "CVE-2026-0008",
+            "score": 9.6,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_08"
+        },
+        {
+            "id": "CVE-2026-0009",
+            "score": 9.8,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_09"
+        },
+        {
+            "id": "CVE-2026-0010",
+            "score": 10.0,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_10"
+        },
+        {
+            "id": "CVE-2026-0011",
+            "score": 10.2,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_11"
+        },
+        {
+            "id": "CVE-2026-0012",
+            "score": 10.4,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_12"
+        },
+        {
+            "id": "CVE-2026-0013",
+            "score": 10.6,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_13"
+        },
+        {
+            "id": "CVE-2026-0014",
+            "score": 10.8,
+            "desc": "NEBULA Sync Target: Automated vulnerability detection in module_14"
+        }
+    ]
+}
