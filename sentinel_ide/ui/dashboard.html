@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FURY SENTINEL IDE</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #00ffcc;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            padding: 20px;
+            border-bottom: 1px solid #00ffcc33;
+            background: linear-gradient(90deg, #0a0a0a 0%, #001a1a 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .status-dot {
+            height: 10px;
+            width: 10px;
+            background-color: #00ffcc;
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 10px #00ffcc;
+        }
+        main {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 250px;
+            border-right: 1px solid #00ffcc33;
+            padding: 15px;
+            background-color: #080808;
+        }
+        .editor {
+            flex: 1;
+            padding: 20px;
+            background-color: #0a0a0a;
+            position: relative;
+        }
+        .terminal {
+            height: 200px;
+            background-color: #000;
+            border-top: 1px solid #00ffcc33;
+            padding: 10px;
+            font-size: 12px;
+            color: #00cc99;
+        }
+        .pulse {
+            animation: blink 2s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 0.3; }
+            50% { opacity: 1; }
+            100% { opacity: 0.3; }
+        }
+        .nav-item { margin-bottom: 10px; cursor: pointer; opacity: 0.7; }
+        .nav-item:hover { opacity: 1; color: #fff; }
+    </style>
+</head>
+<body>
+    <header>
+        <div>FURY SENTINEL <span class="pulse">|</span> 2030 OMNISCIENT</div>
+        <div><span class="status-dot"></span> NEBULA_CORE: ONLINE</div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="nav-item">🌌 MISSION_CONTROL</div>
+            <div class="nav-item">🤖 SWARM_SCHEDULER</div>
+            <div class="nav-item">🧪 PAYLOAD_LAB</div>
+            <div class="nav-item">📡 SIGINT_STREAM</div>
+            <div class="nav-item" style="margin-top: 40px; color: #ff3366;">⚠️ DESTRUCT_ENGINE</div>
+        </div>
+        <div class="editor">
+            <pre>// NEBULA-CLASS PAYLOAD v10.0.1
+// TARGET: [REDACTED]
+// MODE: OMNISCIENT_FORECASTING
+
+import { Nebula } from 'fury-core';
+
+async function initiateCycle() {
+    const pulse = await Nebula.forecast('infrastructure_drift');
+    if (pulse.probability > 0.95) {
+        await Nebula.deploy('evolve_v7.5');
+    }
+}
+            </pre>
+        </div>
+    </main>
+    <div class="terminal">
+        [*] SENTINEL: Connection to FURY-MESH established.<br>
+        [i] SYNC: Local CVE database updated (T-Minus 0s).<br>
+        [!] ALERT: Detected anomalous signal on 2.4GHz spectrum.<br>
+        [>] Shell: _
+    </div>
+</body>
+</html>

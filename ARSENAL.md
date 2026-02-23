@@ -55,6 +55,57 @@ The FURY Arsenal has transcended autonomous integration and is now entering the 
 
 ---
 
+## 🌎 Global Intelligence Resources (2030 INDEX)
+
+FURY integrates a world-class index of curated security resources to ensure 360-degree situational awareness.
+
+### 🛡️ Domains of Excellence
+
+| Resource | Description |
+| :--- | :--- |
+| [Android Security](https://github.com/ashishb/android-security-awesome) | Awesome Android security related resources |
+| [AppSec](https://github.com/paragonie/awesome-appsec) | Application security learning & tools |
+| [Asset Discovery](https://github.com/redhuntlabs/Awesome-Asset-Discovery) | Intelligence for the asset discovery phase |
+| [Bug Bounty](https://github.com/djadmin/awesome-bug-bounty) | Massive list of Bug Bounty programs and write-ups |
+| [Cellular Hacking](https://github.com/W00t3k/Awesome-Cellular-Hacking) | 3G/4G/5G mobile security research |
+| [CTF](https://github.com/apsdehal/awesome-ctf) | CTF frameworks and software |
+| [Cyber Skills](https://github.com/joe-shenouda/awesome-cyber-skills) | Training environments for legal hacking |
+| [DevSecOps](https://github.com/devsecops/awesome-devsecops) | Community-driven DevSecOps tools |
+| [Embedded & IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) | IoT and hardware security index |
+| [Exploit Development](https://github.com/FabioBaroni/awesome-exploit-development) | Learning path for vulnerability research |
+| [Fuzzing](https://github.com/secfigo/Awesome-Fuzzing) | Fuzzing resources for root cause analysis |
+| [Hacking Resources](https://github.com/vitalysim/Awesome-Hacking-Resources) | General pentesting and hacking index |
+| [Honeypots](https://github.com/paralax/awesome-honeypots) | Deception technology and honeypot tools |
+| [Incident Response](https://github.com/meirwah/awesome-incident-response) | IR and forensic tools |
+| [ICS Security](https://github.com/hslatman/awesome-industrial-control-system-security) | SCADA and industrial system security |
+| [IoT Hacks](https://github.com/nebgnahz/awesome-iot-hacks) | Real-world IoT security breaches |
+| [Mainframe Hacking](https://github.com/samanL33T/Awesome-Mainframe-Hacking) | Resources for legacy systems pentesting |
+| [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) | Tools for analyzing malicious binaries |
+| [OSINT](https://github.com/jivoi/awesome-osint) | The definitive Open Source Intelligence index |
+| [Pcaptools](https://github.com/caesar0301/awesome-pcaptools) | Network trace processing suites |
+| [Red Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) | Advanced operations and adversary simulation |
+| [Reversing](https://github.com/fdivrp/awesome-reversing) | Decompilation and reverse engineering |
+| [Social Engineering](https://github.com/v2-dev/awesome-social-engineering) | Psychological manipulation and SE resources |
+| [Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) | CTI resources and data feeds |
+| [Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security) | Automotive and car hacking research |
+| [Web Hacking](https://github.com/infoslack/awesome-web-hacking) | Application security and web exploits |
+| [Web3 Security](https://github.com/Anugrahsr/Awesome-web3-Security) | Blockchain and smart contract security |
+| [YARA](https://github.com/InQuest/awesome-yara) | Rules and tools for malware identification |
+
+### 🛠️ Strategic Tools & Repositories
+
+| Repository | Purpose |
+| :--- | :--- |
+| [SecLists](https://github.com/danielmiessler/SecLists) | Ultimate collection of fuzzing/auth lists |
+| [GTFOBins](https://gtfobins.github.io) | Unix binary exploit patterns |
+| [CyberChef](https://gchq.github.io/CyberChef/) | The Swiss-Army knife of data analysis |
+| [Detection Lab](https://github.com/clong/DetectionLab) | Lab environment automation |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Massive bypass/payload collection |
+| [Hacker Roadmap](https://github.com/sundowndev/hacker-roadmap) | The path to ethical hacking mastery |
+| [Cybersources](https://github.com/brunoooost/cybersources) | Unified security tool index |
+| [Vulhub](https://github.com/vulhub/vulhub) | Pre-built vulnerable Docker environments |
+
+---
 <div align="center">
 **FLLC // FURY COMMAND | BEYOND 2030 | THE FUTURE IS OURS**
 </div>
